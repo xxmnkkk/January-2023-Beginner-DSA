@@ -78,10 +78,10 @@ public class CheckIfArrayIsSortedAndRotated {
             }
 
             if(flag == 0) {
-                System.out.println("NO");
+                System.out.println("No");
             }
             else {
-                System.out.println("YES");
+                System.out.println("Yes");
             }
         }
     }
