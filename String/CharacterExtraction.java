@@ -17,6 +17,7 @@ public class CharacterExtraction {
         System.out.println("Character at 100th index: " + ch);
          */
 
+        //characters between a range of given indices
         int sourceStart = 10;
         int sourceEnd = 20;
         char target[] = new char[2 * length];
@@ -25,5 +26,12 @@ public class CharacterExtraction {
         str.getChars(sourceStart, sourceEnd, target, targetStart);
         String targetString = new String(target);
         System.out.println("Target String: " + targetString);
+
+        //convert a string to a character array
+        System.out.println("'" + str + "'" + " in char array: ");
+        char strArr[] = str.toCharArray();
+        for(int i = 0; i < length; i++) {
+            System.out.print(strArr[i] + " ");
+        }
     }
 }
