@@ -44,6 +44,6 @@ public class SquareRootOfX {
 
         double result = calculateSquareRoot(number, precision);
 
-        
+
     }
 }
