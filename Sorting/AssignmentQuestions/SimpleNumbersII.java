@@ -17,20 +17,20 @@ public class SimpleNumbersII {
 
         Arrays.sort(arr);
 
+        int i = 0, j = n - 1;
         int count = 0;
-        for(int i = 0; i < (n - 1); i++) {
-            for(int j = (i + 1); j < n; j++) {
-                if((arr[i] + arr[j]) <= x) {
-                    count++;
-                }
-                else {
-                    break;
-                }
-            }
-        }
+        while(i <= j) {
+            if((arr[i] + arr[j]) <= x) {
+                count++;
 
-        if(count == 0) {
-            count = n;
+                i++;
+                j--;
+            }
+            else {
+                count++;
+
+                j--;
+            }
         }
 
         System.out.println(count);
