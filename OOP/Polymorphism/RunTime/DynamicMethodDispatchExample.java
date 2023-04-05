@@ -1,4 +1,4 @@
-package OOP.Polymorphism;
+package OOP.Polymorphism.RunTime;
 
 class Shape {
     void area() {
