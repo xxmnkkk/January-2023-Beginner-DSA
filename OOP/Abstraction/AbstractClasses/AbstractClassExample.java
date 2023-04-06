@@ -1,4 +1,4 @@
-package OOP.Abstraction;
+package OOP.Abstraction.AbstractClasses;
 
 abstract class F {
     int num1;
