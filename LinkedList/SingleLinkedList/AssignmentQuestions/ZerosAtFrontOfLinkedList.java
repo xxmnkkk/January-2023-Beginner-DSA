@@ -1,4 +1,4 @@
-package LinkedList.AssignmentQuestions;
+package LinkedList.SingleLinkedList.AssignmentQuestions;
 
 public class ZerosAtFrontOfLinkedList {
     class Node{

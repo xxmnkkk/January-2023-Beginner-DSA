@@ -1,6 +1,4 @@
-package LinkedList.AssignmentQuestions;
-
-import LinkedList.SingleLinkedList;
+package LinkedList.SingleLinkedList.AssignmentQuestions;
 
 public class DeleteMiddleOfLinkedList {
     class Node {
