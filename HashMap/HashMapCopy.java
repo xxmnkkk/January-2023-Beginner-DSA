@@ -10,8 +10,7 @@ public class HashMapCopy {
         hashMap.put("Moinuddin", "100");
 
         HashMap<String, Object> hashMapShallowCopy = (HashMap<String, Object>) hashMap.clone();
-        //hashMapShallowCopy.put("Dheerendra", 93);
-        hashMapShallowCopy.put("Richad", 92);
+        hashMapShallowCopy.put("Dheerendra", 93);
 
         System.out.println("Original: " + hashMap);
         System.out.println("Shallow copy: " + hashMapShallowCopy);
