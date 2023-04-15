@@ -10,6 +10,10 @@ public class LongestSubarrayWithSumK {
         int t = scanner.nextInt();
 
         for(int i = 1; i <= t; i++) {
+            if(i % 10 == 0) {
+                System.gc();
+            }
+
             int n = scanner.nextInt();
             int targetSum = scanner.nextInt();
 
