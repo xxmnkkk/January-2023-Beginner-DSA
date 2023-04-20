@@ -1,4 +1,4 @@
-package Queue;
+package Queue.StandardQueue;
 
 public class QueueUsingArray {
     int queue[];

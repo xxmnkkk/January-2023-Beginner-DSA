@@ -1,4 +1,4 @@
-package Queue.AssignmentQuestions;
+package Queue.StandardQueue.AssignmentQuestions;
 
 import java.util.Queue;
 
