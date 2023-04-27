@@ -1,4 +1,4 @@
-package HashMap.AssignmentQuestions;
+package Collection.Map.HashMap.AssignmentQuestions;
 
 import java.util.HashMap;
 import java.util.Scanner;

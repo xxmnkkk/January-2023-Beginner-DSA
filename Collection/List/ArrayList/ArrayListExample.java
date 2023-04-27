@@ -1,38 +1,37 @@
-package ArrayList;
+package Collection.List.ArrayList;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
 public class ArrayListExample {
     public static void main(String[] args) {
-        //creating an ArrayList
+        //creating an Collection.List.ArrayList
         ArrayList<Integer> arrayList = new ArrayList<>();
 
-        //printing the data of an ArrayList
+        //printing the data of an Collection.List.ArrayList
         System.out.println("Empty Result: " + arrayList);
 
-        //storing data in an ArrayList
+        //storing data in an Collection.List.ArrayList
         //add(value) -> appends the element at the end of the list
         arrayList.add(10);
         arrayList.add(20);
         arrayList.add(-30);
-        System.out.println("ArrayList after adding 3 elements: " + arrayList);
+        System.out.println("Collection.List.ArrayList after adding 3 elements: " + arrayList);
 
         //add(index, value) -> appends the element at the specified index of the list
         arrayList.add(0, 100);
-        System.out.println("ArrayList after adding 4 elements: " + arrayList);
+        System.out.println("Collection.List.ArrayList after adding 4 elements: " + arrayList);
 
-        //size of the ArrayList
+        //size of the Collection.List.ArrayList
         int size = arrayList.size();
         System.out.println("Size: " + size);
 
         arrayList.add(4, 400);
-        System.out.println("ArrayList after adding 5 elements: " + arrayList);
+        System.out.println("Collection.List.ArrayList after adding 5 elements: " + arrayList);
 
         /*
-        Index 6 will throw an error, as the ArrayList is of size 5,
+        Index 6 will throw an error, as the Collection.List.ArrayList is of size 5,
         hence, the valid indices are: 0, 1, 2, 3, 4
 
         arrayList.add(6, 600);
@@ -44,13 +43,13 @@ public class ArrayListExample {
 
         //deleting an element at index 3
         arrayList.remove(3);
-        System.out.println("ArrayList after removing element at 3rd index: " + arrayList);
+        System.out.println("Collection.List.ArrayList after removing element at 3rd index: " + arrayList);
         size = arrayList.size();
         System.out.println("Size: " + size);
 
         Integer remove = 400;
         arrayList.remove(remove);
-        System.out.println("ArrayList after removing 400: " + arrayList);
+        System.out.println("Collection.List.ArrayList after removing 400: " + arrayList);
         size = arrayList.size();
         System.out.println("Size: " + size);
 
@@ -137,9 +136,9 @@ public class ArrayListExample {
         System.out.println("arrayList sorted in decreasing order: " + arrayList);
 
 
-        //deleting every element of the ArrayList
+        //deleting every element of the Collection.List.ArrayList
         arrayList.clear();
-        System.out.println("ArrayList after clear(): " + arrayList);
+        System.out.println("Collection.List.ArrayList after clear(): " + arrayList);
         size = arrayList.size();
         System.out.println("Size: " + size);
 

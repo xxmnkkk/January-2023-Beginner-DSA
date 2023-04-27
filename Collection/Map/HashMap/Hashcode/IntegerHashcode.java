@@ -1,4 +1,4 @@
-package HashMap.Hashcode;
+package Collection.Map.HashMap.Hashcode;
 
 public class IntegerHashcode {
     public static void main(String[] args) {

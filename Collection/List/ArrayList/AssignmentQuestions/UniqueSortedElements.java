@@ -1,4 +1,4 @@
-package ArrayList.AssignmentQuestions;
+package Collection.List.ArrayList.AssignmentQuestions;
 
 import java.util.ArrayList;
 import java.util.Collections;
