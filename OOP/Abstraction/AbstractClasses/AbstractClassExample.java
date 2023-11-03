@@ -1,26 +1,26 @@
 package OOP.Abstraction.AbstractClasses;
 
 abstract class F {
-    int num1;
+    int num2;
     F() {
-        num1 = 10;
+        num2 = 10;
     }
 
     abstract void sum();
 }
 
 abstract class G extends F {
-    int num2;
+    int num3;
 
     G() {
         super();
-        num2 = 20;
+        num3 = 20;
     }
 }
 
 class H extends G {
     void sum() {
-        int sum = num1 + num2;
+        int sum = num2 + num3;
 
         System.out.println("Sum: " + sum);
     }
